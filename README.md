@@ -17,9 +17,9 @@ It's live! Check it out at:
 
 Sign up for a free account and start playing today!
 
-## ✨ Features
-
 ---
+
+## ✨ Features
 
 - **Interactive Word Game**: Play on a dynamic game board with real-time cell
   logic and gameplay tracking.
