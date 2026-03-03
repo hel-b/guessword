@@ -1,0 +1,17 @@
+node_modules
+compose*
+Dockerfile*
+.env
+*.dockerignore
+.gitignore
+.git
+README.md
+.prettierrc.mjs
+.prettierignore
+eslint.config.js
+README.md
+.devcontainer
+.next
+.github
+.vscode
+
