@@ -42,3 +42,6 @@ next-env.d.ts
 
 # users db
 users.db*
+
+# next.js extra README files
+README.md
