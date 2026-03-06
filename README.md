@@ -171,10 +171,14 @@ Using compose:
 
 ```bash
 # For production
-# NOTE: Configure your network and environment variables for your production environment
-docker compose up --build
+# NOTE: Configure your network and environment variables for production in the compose file
+docker compose up -d
 # For development (with port 3000 mapped)
-docker compose -f docker-compose.dev.yml up --build
+docker compose -f docker-compose.dev.yml up -d
+# To stop and remove the runtime container (prod)
+docker compose down
+# To stop and remove the runtime container (dev)
+docker compose -f docker-compose.dev.yml down
 ```
 
 ---
